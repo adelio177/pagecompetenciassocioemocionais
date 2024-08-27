@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #050565;
+    height: 10vh;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+#imagem-logo {
+    color: #d1fb00;
+    font-size: 40px;
+}
+
+
+#texto-logo {
+    color: #d1fb00;
+    font-size: 24px;
+}
+
+
+#login {
+    margin-right: 30px;
+}
+
+#botao-login {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600px;
+    background-color: #d1fb00;
+    border: 3px solid-transparent;
+    border-radius: 5px;
+    transition: all 2s ease;
+}
+
+#botao-login:hover {
+    background-color: transparent;
+    border: 3px solid #d1fb00;
+    color: #d1fb00;
+}
+
+main {
+    min-height: 40vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #050565;
+    color: #d1fb00;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#desenvolvedor {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.legenda {
+    font-size: 12px;
+    color: #d1fb00;
+    border-bottom: 1px solid; #ffffff
+
+    .texto {
+        font-size: 20px;
+        font-weight: 700;
+        color: #d1fb00;
+        margin-bottom: 14px;
+    }
+
+
+#redessociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redessociais-link {
+    display: flex;
+    flex-direction: row;
+    color: #d1fb00;
+    gap: 10px;
+    transition: all 0.5s ease;
+}
+
+.redessociais-link:hover {
+    font-weight: 800;
+    
+}
+
+.redessociais-link i {
+    font-size: 34px;
+
+}
+
+.texto-link {
+    font-size: 20px;
+
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.contato-link {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.contato-link:hover{
+    font-weight: 800;
+    
+}
+.contato-link i{
+    font-size: 46px;
+}
+.texto-contato{
+    font-size: 24px;
+}
